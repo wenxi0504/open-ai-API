@@ -10,14 +10,14 @@
 <h1>Fun With AI</h1>
 <form id="form" action="POST">
 <p><label for="prompt"> Enter Prompt</label></p>
-<textarea id="userPrompt" name="userPrompt" rows="10" cols="50" type="text" value="text"></textarea>
-<input type="submit" value="Submit" onclick="userPromptSubmit()">
+<textarea id="userPrompt" name="userprompt" rows="10" cols="50" type="text" value="text"></textarea>
 </form>
-  
-<div> 
+<div>
+<input type="submit" value="Submit" onclick="userPromptSubmit()">
+</div>
+    
 <h2>Responses</h2>
 <textarea id="aiResponse" name="aiResponse" readonly="true" rows="10" cols="50" style="background-color: lightgray;"></textarea>
-</div> 
 <script src="openai.js"></script>
 </body>
 </html>
