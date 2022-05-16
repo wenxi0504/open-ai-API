@@ -1,0 +1,16 @@
+{
+  "name": "open-ai",
+  "version": "1.0.0",
+  "description": "openAi API Practice",
+  "main": "openai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wen Xu (Sophie)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16",
+    "openai-api": "^1.3.1"
+  }
+}

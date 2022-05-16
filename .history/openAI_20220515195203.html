@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI-API</title>
+</head>
+<body>
+<h1>Fun With AI</h1>
+<form id="form" action="POST">
+<p><label for="prompt"> Enter Prompt</label></p>
+<textarea id="userPrompt" name="userPrompt" rows="10" cols="50" type="text" value="text"></textarea>
+<input type="submit" value="Submit" onclick="userPromptSubmit()">
+</form>
+  
+<div> 
+<h2>Responses</h2>
+<textarea id="aiResponse" name="aiResponse" readonly="true" rows="10" cols="50" style="background-color: lightgray;"></textarea>
+</div> 
+<script src="openai.js"></script>
+</body>
+</html>
